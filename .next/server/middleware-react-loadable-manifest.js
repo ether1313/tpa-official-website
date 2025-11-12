@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"components/SecurityGauge.tsx -> react-gauge-component\":{\"id\":\"components/SecurityGauge.tsx -> react-gauge-component\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_react-gauge-component_dist_lib_index_js.js\"]}}"
