@@ -76,7 +76,7 @@ export default function ContactPage() {
             >
               <GlassCard>
                 <div className="text-center mb-6 sm:mb-8">
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-3 sm:mb-4">
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-3 sm:mb-4">
                     Send Us a Message
                   </h2>
                   <p className="text-sm sm:text-base md:text-lg text-black/70">
@@ -195,7 +195,7 @@ export default function ContactPage() {
               viewport={{ once: true }}
               className="text-center mb-10 sm:mb-16"
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6">
                 Our Offices
               </h2>
               <p className="text-base sm:text-lg text-black/70 max-w-2xl mx-auto">

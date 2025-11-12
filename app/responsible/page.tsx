@@ -75,7 +75,7 @@ export default function ResponsiblePage() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-12 sm:mb-20"
             >
               <div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6 text-center sm:text-left">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6 text-center sm:text-left">
                   Healthy Gaming Guidelines
                 </h2>
                 <div className="space-y-3 sm:space-y-4">
@@ -124,7 +124,7 @@ export default function ResponsiblePage() {
               viewport={{ once: true }}
               className="text-center mb-8 sm:mb-16"
             >
-              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-3 sm:mb-6 text-center">
+              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-3 sm:mb-6 text-center">
                 Responsible Gaming Tools
               </h2>
               <p className="text-sm sm:text-lg text-black/70 max-w-md sm:max-w-3xl mx-auto leading-relaxed">
@@ -182,7 +182,7 @@ export default function ResponsiblePage() {
                   <div className="w-10 h-10 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-6 bg-gradient-to-r from-red-500 to-orange-500 rounded-full flex items-center justify-center shadow-md shadow-red-100/60">
                     <i className="ri-alert-line text-base sm:text-2xl text-white"></i>
                   </div>
-                  <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-2 sm:mb-4 text-center">
+                  <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-2 sm:mb-4 text-center">
                     Warning Signs of Problem Gambling
                   </h2>
                   <p className="text-sm sm:text-lg text-black/70 max-w-md sm:max-w-3xl mx-auto leading-relaxed">
@@ -221,7 +221,7 @@ export default function ResponsiblePage() {
               viewport={{ once: true }}
               className="text-center mb-8 sm:mb-16"
             >
-              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-3 sm:mb-6 text-center">
+              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-3 sm:mb-6 text-center">
                 Get Help & Support
               </h2>
               <p className="text-sm sm:text-lg text-black/70 max-w-md sm:max-w-3xl mx-auto leading-relaxed">

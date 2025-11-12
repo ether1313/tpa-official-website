@@ -61,7 +61,7 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               className="text-center mb-10 sm:mb-16"
             >
-              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6 leading-tight">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6 leading-tight">
                 About TPA
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-black/70 max-w-2xl sm:max-w-4xl mx-auto leading-relaxed sm:leading-loose px-2">
@@ -82,7 +82,7 @@ export default function AboutPage() {
               className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-10 sm:mb-20"
             >
               <div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6 leading-snug">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6 leading-snug">
                   Our Mission
                 </h2>
                 <p className="text-base sm:text-lg text-black/70 mb-4 sm:mb-6 leading-relaxed sm:leading-loose">
@@ -114,7 +114,7 @@ export default function AboutPage() {
               viewport={{ once: true }}
               className="text-center mb-10 sm:mb-16"
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6">
                 Our Core Values
               </h2>
               <p className="text-base sm:text-lg text-black/70 max-w-2xl sm:max-w-3xl mx-auto px-2">
@@ -142,7 +142,7 @@ export default function AboutPage() {
                     <div className="w-12 sm:w-16 h-12 sm:h-16 mx-auto mb-4 flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 rounded-full">
                       <i className={`${value.icon} text-xl sm:text-2xl text-white`}></i>
                     </div>
-                    <h3 className="text-xl sm:text-2xl font-bold font-['Orbitron'] text-black mb-2 sm:mb-4 text-center">
+                    <h3 className="text-xl sm:text-2xl font-bold font-['bowlby'] text-black mb-2 sm:mb-4 text-center">
                       {value.title}
                     </h3>
                     <p className="text-sm sm:text-base text-black/70 leading-relaxed text-center px-2">
@@ -165,7 +165,7 @@ export default function AboutPage() {
               viewport={{ once: true }}
               className="text-center mb-10 sm:mb-16"
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6">
                 Meet Our Team
               </h2>
               <p className="text-base sm:text-lg text-black/70 max-w-2xl sm:max-w-3xl mx-auto px-2">
@@ -219,7 +219,7 @@ export default function AboutPage() {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-12">
                   Our Impact
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -236,7 +236,7 @@ export default function AboutPage() {
                       transition={{ duration: 0.5, delay: index * 0.1 }}
                       viewport={{ once: true }}
                     >
-                      <h3 className="text-3xl md:text-4xl font-bold font-['Orbitron'] text-blue-600 mb-2">
+                      <h3 className="text-3xl md:text-4xl font-bold font-['bowlby'] text-blue-600 mb-2">
                         {stat.number}
                       </h3>
                       <p className="text-black/70 font-medium">{stat.label}</p>

@@ -133,7 +133,7 @@ export default function FAQPage() {
                 viewport={{ once: true }}
               >
                 <GlassCard>
-                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold font-['Orbitron'] text-black mb-5 sm:mb-8 text-center">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold font-['bowlby'] text-black mb-5 sm:mb-8 text-center">
                     {category.title}
                   </h2>
                   <Accordion
@@ -172,7 +172,7 @@ export default function FAQPage() {
               viewport={{ once: true }}
               className="text-center mb-8 sm:mb-16"
             >
-              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['Orbitron'] text-black mb-3 sm:mb-6 text-center">
+              <h2 className="text-xl sm:text-3xl md:text-4xl font-bold font-['bowlby'] text-black mb-3 sm:mb-6 text-center">
                 Need More Help?
               </h2>
               <p className="text-sm sm:text-lg text-black/70 max-w-md sm:max-w-2xl mx-auto leading-relaxed">

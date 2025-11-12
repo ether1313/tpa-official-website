@@ -3,6 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* === Bowlby One SC Font === */
+.font-bowlby {
+  font-family: var(--font-bowlby), system-ui, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
 /* === Preview Loading 页面 === */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }

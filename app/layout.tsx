@@ -9,6 +9,11 @@ import LoadingScreen from "@/components/LoadingScreen";
 // === Google Fonts ===
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" });
+const bowlby = Bowlby_One_SC({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-bowlby",
+});
 
 export const metadata: Metadata = {
   title: "TPA - Trusted Pokies Australia",
@@ -30,7 +35,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/favicon.png" />
       </head>
       <body
-        className={`${inter.variable} ${orbitron.variable} font-sans antialiased min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50`}
+        className={`${inter.variable} ${orbitron.variable} ${bowlby.variable} font-sans antialiased min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50`}
       >
         <div className="relative min-h-screen">
           <div

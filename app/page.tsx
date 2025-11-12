@@ -61,7 +61,7 @@ export default function HomePage() {
               className="space-y-3 sm:space-y-6"
             >
               {/* Title */}
-              <h1 className="font-['Orbitron'] font-bold text-2xl sm:text-3xl md:text-5xl text-black leading-snug tracking-tight">
+              <h1 className="font-bowlby text-xl sm:text-3xl md:text-5xl text-black leading-snug tracking-tight">
                 Play Safe. Play Smart.
                 <br />
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent inline-block mt-1 sm:mt-2">
@@ -98,9 +98,9 @@ export default function HomePage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="text-2xl sm:text-4xl md:text-5xl font-bold font-['Orbitron'] text-black mb-6 sm:mb-10"
+              className="text-2xl sm:text-4xl md:text-5xl font-bold font-['bowlby'] text-black mb-6 sm:mb-10"
             >
-              Heard TPA Said.
+              Heard TPA Said...
             </motion.h2>
 
             <motion.div
@@ -152,7 +152,7 @@ export default function HomePage() {
 
                     {/* Number */}
                     <motion.h3
-                      className="text-lg sm:text-4xl font-bold font-['Orbitron'] text-black mb-0 sm:mb-2"
+                      className="text-lg sm:text-4xl font-bold font-['bowlby'] text-black mb-0 sm:mb-2"
                       initial={{ scale: 0.9 }}
                       whileInView={{ scale: 1 }}
                       transition={{ duration: 0.5, delay: index * 0.2 + 0.3 }}
@@ -182,7 +182,7 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="text-center mb-8 sm:mb-16"
             >
-              <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold font-['Orbitron'] text-black mb-3 sm:mb-6">
+              <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold font-['bowlby'] text-black mb-3 sm:mb-6">
                 Why Choose TPA?
               </h2>
               <p className="text-sm sm:text-xl text-black/70 max-w-sm sm:max-w-3xl mx-auto leading-relaxed">
@@ -278,7 +278,7 @@ export default function HomePage() {
                 viewport={{ once: true }}
               >
                 {/* 標題 */}
-                <h2 className="text-xl sm:text-4xl font-bold font-['Orbitron'] text-black mb-3 sm:mb-6 leading-snug">
+                <h2 className="text-xl sm:text-4xl font-bold font-['bowlby'] text-black mb-3 sm:mb-6 leading-snug">
                   Ready to Start Playing Safely?
                 </h2>
 

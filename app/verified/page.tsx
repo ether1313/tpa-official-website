@@ -126,7 +126,7 @@ export default function VerifiedPage() {
               viewport={{ once: true }}
               className="text-center mb-10 sm:mb-16"
             >
-              <h2 className="text-2xl sm:text-4xl font-bold font-['Orbitron'] text-black mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-4xl font-bold font-['bowlby'] text-black mb-4 sm:mb-6">
                 TPA Verified Wallets
               </h2>
               <p className="text-base sm:text-xl text-black/70 max-w-md sm:max-w-3xl mx-auto leading-relaxed">
@@ -222,7 +222,7 @@ export default function VerifiedPage() {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-2xl sm:text-4xl font-bold font-['Orbitron'] text-black mb-6 sm:mb-8">
+                <h2 className="text-2xl sm:text-4xl font-bold font-['bowlby'] text-black mb-6 sm:mb-8">
                   Why Trust Our Verification?
                 </h2>
 
