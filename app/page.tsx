@@ -61,7 +61,7 @@ export default function HomePage() {
               className="space-y-3 sm:space-y-6"
             >
               {/* Title */}
-              <h1 className="font-bowlby text-xl sm:text-3xl md:text-5xl text-black leading-snug tracking-tight">
+              <h1 className="font-['Orbitron'] font-bold text-2xl sm:text-3xl md:text-5xl text-black leading-snug tracking-tight">
                 Play Safe. Play Smart.
                 <br />
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent inline-block mt-1 sm:mt-2">

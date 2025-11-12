@@ -3,14 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* === Bowlby One SC Font === */
-.font-bowlby {
-  font-family: var(--font-bowlby), system-ui, sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-
 /* === Preview Loading 页面 === */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
@@ -29,7 +21,7 @@
   width: calc(2 * (1.353 * var(--s) + var(--g)));
   aspect-ratio: 1;
   background:
-    linear-gradient(#2563eb 0 0) left/50% 100% no-repeat, /* 主色蓝 */
+    linear-gradient(#2563eb 0 0) left/50% 100% no-repeat,
     conic-gradient(from -90deg at var(--s) calc(0.353 * var(--s)),
       #ffffff 135deg, #6b7280 0 270deg, #9ca3af 0); 
   background-blend-mode: multiply;
@@ -48,7 +40,7 @@
   -webkit-mask-composite: source-in;
   mask-composite: intersect;
   animation: tpaLoader 1.5s infinite;
-  filter: drop-shadow(0 0 6px rgba(37, 99, 235, 0.4)); /* 柔和蓝光 */
+  filter: drop-shadow(0 0 6px rgba(37, 99, 235, 0.4));
 }
 
 @keyframes tpaLoader {
