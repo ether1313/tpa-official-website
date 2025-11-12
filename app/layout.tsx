@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
-import LoadingScreen from "@/components/LoadingScreen"; // ✅ 新增
+import LoadingScreen from "@/components/LoadingScreen";
 
 // === Google Fonts ===
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "TPA - Trusted Pokies Australia",
   description:
     "Your trusted pokies review & verification partner in Australia. Play Safe. Play Smart.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body
         className={`${inter.variable} ${orbitron.variable} ${bowlby.variable} font-sans antialiased min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50`}
       >
